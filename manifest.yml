@@ -1,0 +1,13 @@
+applications:
+- path: .
+  memory: 256M
+  instances: 1
+  domain: mybluemix.net
+  name: ChatBotTeste3
+  host: ChatBotTeste3
+  disk_quota: 1024M
+  env:
+    MESSENGER_PAGE_TOKEN: EAAb2Jt6c8cIBAKpbYu8cMdn5l50dJhOpwVloI6jI4sqZCwofvFlRPegJITIPk7aZAPw4M4YS7lZCrZBZACQlyjddwsnjf2Gg0m9IYXu8VXUj5t68P19ZCV5oO8CXjQKpjYfEZB1w5u8WeSj8bZCmQs2JRY4cGPkDs7fVkmEGxMRKxwZDZD
+    MESSENGER_APP_SECRET: ●●●●●●●●
+    WORKSPACE_ID: a82d8cba-c2b9-45db-b775-1320b14812e0
+    MESSENGER_WEBHOOKENDPOINT: webhook
